@@ -322,7 +322,7 @@ input[type="text"] {
 }
 
 .skill-card .header {
-  color: #fff;
+  color: #ffffff;
   padding: 1em;
 }
 
@@ -356,14 +356,14 @@ input[type="text"] {
 }
 
 .skill-card .data {
-  color: #fff;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0.55);
   transform: translateY(calc(60px + 4em));
   padding: 5px;
 }
 
 .skill-card .title a {
-  color: #fff;
+  color: #ffffff;
 }
 
 /*social icons*/
@@ -535,7 +535,7 @@ ul {
 
 @media (min-width: 960px) {
   .skill-card .data {
-    color: #fff;
+    color: #ffffff;
     transform: translateY(calc(80px + 4em));
     padding: 5px;
   }
