@@ -144,6 +144,7 @@ section > div {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 15%), 2px 2px 7px rgba(0, 0, 0, 14%),
     3px 3px 8px rgba(0, 0, 0, 13%), 4px 4px 9px rgba(0, 0, 0, 12%);
   z-index: 1;
+  margin-bottom: 5%;
 }
 
 .card1:hover {
@@ -192,10 +193,11 @@ ul ol {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-top-left-radius: 13px;
+  border-top-left-radius: 13px; 
   border-top-right-radius: 13px;
-  width: 100%;
+  width: 20%;
   height: 300px;
+
 }
 
 @media only screen and (min-width: 1280px) {
@@ -207,7 +209,7 @@ ul ol {
 @media only screen and (min-width: 768px) {
   .card1 {
     flex-direction: row;
-    max-height: 70vh;
+    max-height: 80vh;
   }
 
   .card1 h3 {
@@ -220,7 +222,7 @@ ul ol {
     border-top-right-radius: 0;
     max-width: 300px;
     height: inherit;
-    width: 100%;
+    width: 80%;
   }
 }
 
