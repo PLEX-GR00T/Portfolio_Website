@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Human Pose Estimation App",
+    title: "Human Pose Estimation",
     cardImage: "assets/images/project-page/exercise1.jpg",
     description: "Keeps tracks of your daily exercies.",
     tagimg: "",
@@ -22,7 +22,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/NLP_Application",
   },
   {
-    title: "Energy Prediction using XGBoost",
+    title: "Energy Prediction (XGBoost)",
     cardImage: "assets/images/project-page/xgboost.jpg",
     description: "BigQuery and Google visual studion",
     tagimg: "",
@@ -30,7 +30,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Energy_Usage_Intensity_ML_Project",
   },
   {
-    title: "Inference Acceleration with TensorRT",
+    title: "Inference Acceleration",
     cardImage: "assets/images/project-page/tensorrt.jpg",
     description: "Exercise tracker built using basic redux.",
     tagimg: "",
@@ -38,7 +38,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/GTSRB_Deep_Learning_Project",
   },
   {
-    title: "Classification of roadside vehicle",
+    title: "Classification of vehicle",
     cardImage: "assets/images/project-page/car.jpg",
     description: "Data Annotation using Roboflow, and banchmarked 3 DL algo.",
     tagimg: "",
@@ -62,7 +62,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Generative_Adversarial_Nets",
   },
   {
-    title: "Cart Pole with Kalman Gain",
+    title: "Cart Pole Problem",
     cardImage: "assets/images/project-page/cartpole.jpg",
     description: "Hard coded Reinforcement learning project of car pole using Kalman Gain.",
     tagimg:"",
@@ -78,7 +78,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Routing_with_A_star/tree/main/A_star_on_USA_map",
   },
   {
-    title: "Bayesian Network for Car insurance ",
+    title: "Bayesian Network",
     cardImage: "assets/images/project-page/bn.jpg",
     description: "Using bayesian graph hand coded model",
     tagimg: "",
@@ -94,7 +94,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/FaceRecognition_from_single_picture",
   },
   {
-    title: "Tutorial of OpenCV learning.",
+    title: "Tutorial of OpenCV",
     cardImage: "assets/images/project-page/opencv.jpg",
     description: "Built using Python and OpenCV.",
     tagimg: "",
@@ -116,7 +116,7 @@ const showCards = () => {
             <div class="data">
               <div class="content">
                 <div class="title-div">
-                  <h1 class="title"><a href="#">${title}</a></h1>
+                  <p class="title">${title}</p>
                 </div>
                 <ul class="menu-content"><br>
                   <li><a href="${Previewlink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a></li>
