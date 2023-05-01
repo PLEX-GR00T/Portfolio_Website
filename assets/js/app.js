@@ -112,9 +112,6 @@ let footer = $(`
       <p class="tag" >As an AI/ML engineer, my role is to design, develop, and deploy AI and ML systems that can learn 
       and improve from experience. This involves working with large datasets, developing algorithms and models, and 
       integrating these systems into real-world applications.
-      AI/ML engineering is a highly challenging and rewarding field that requires a deep understanding of different models,
-      mathematics, and their real world implementation. It is also a field that offers tremendous opportunities for innovation and impact,
-      which I will bring to your company.</p>
       </div>
     </div>
 

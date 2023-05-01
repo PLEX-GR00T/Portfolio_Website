@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Human Pose Estimation(HPE) App",
+    title: "Human Pose Estimation App",
     cardImage: "assets/images/project-page/exercise1.jpg",
     description: "Keeps tracks of your daily exercies.",
     tagimg: "",
@@ -22,7 +22,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/NLP_Application",
   },
   {
-    title: "Energy Usage Intensity Prediction using XGBoost",
+    title: "Energy Prediction using XGBoost",
     cardImage: "assets/images/project-page/xgboost.jpg",
     description: "BigQuery and Google visual studion",
     tagimg: "",
@@ -30,7 +30,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Energy_Usage_Intensity_ML_Project",
   },
   {
-    title: "Inference Acceleration of Traffic Sign Dataset with TensorRT",
+    title: "Inference Acceleration with TensorRT",
     cardImage: "assets/images/project-page/tensorrt.jpg",
     description: "Exercise tracker built using basic redux.",
     tagimg: "",
@@ -38,7 +38,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/GTSRB_Deep_Learning_Project",
   },
   {
-    title: "Data annotation and Classification of roadside vehicle",
+    title: "Classification of roadside vehicle",
     cardImage: "assets/images/project-page/car.jpg",
     description: "Data Annotation using Roboflow, and banchmarked 3 DL algo.",
     tagimg: "",
@@ -46,7 +46,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Object_classification_DL_Project",
   },
   {
-    title: "Maze solving using Markov Decision Process",
+    title: "Maze solving using MDP",
     cardImage: "assets/images/project-page/maze.jpg",
     description: "MDP, Q learning",
     tagimg: "",
@@ -54,7 +54,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Maze_solving_MDP",
   },
   {
-    title: "Generative Adversarial Nets(GANs) of Faces",
+    title: "GANs of Faces",
     cardImage: "assets/images/project-page/face.jpg",
     description: "Successfully completed generator, discriminator, model and training.",
     tagimg: "",
@@ -62,7 +62,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Generative_Adversarial_Nets",
   },
   {
-    title: "Cart Pole problem using Kalman Gain",
+    title: "Cart Pole with Kalman Gain",
     cardImage: "assets/images/project-page/cartpole.jpg",
     description: "Hard coded Reinforcement learning project of car pole using Kalman Gain.",
     tagimg:"",
@@ -70,7 +70,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Cart_Pole_LQR",
   },
   {
-    title: "A Start routing on USA Map using Longitude and latitude",
+    title: "A* routing on USA Map ",
     cardImage: "assets/images/project-page/Astar_city.png",
     description: "A* using graph.",
     tagimg:"",
@@ -78,7 +78,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Routing_with_A_star/tree/main/A_star_on_USA_map",
   },
   {
-    title: "Bayesian Network Implementation for Car insurance dataset",
+    title: "Bayesian Network for Car insurance ",
     cardImage: "assets/images/project-page/bn.jpg",
     description: "Using bayesian graph hand coded model",
     tagimg: "",
@@ -86,7 +86,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/Bayesian_Network_for_Car_Insurance",
   },
   {
-    title: "Face recognition system using multiple pictures.",
+    title: "Face recognition system",
     cardImage: "assets/images/project-page/facerec.jpg",
     description: "Built using python.",
     tagimg: "",
@@ -94,7 +94,7 @@ const projects = [
     Githublink: "https://github.com/PLEX-GR00T/FaceRecognition_from_single_picture",
   },
   {
-    title: "Complete 70 Program tutorial of OpenCV learning.",
+    title: "Tutorial of OpenCV learning.",
     cardImage: "assets/images/project-page/opencv.jpg",
     description: "Built using Python and OpenCV.",
     tagimg: "",
