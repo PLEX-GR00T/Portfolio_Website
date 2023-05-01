@@ -7,7 +7,7 @@ script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
 // Header
-
+// Hashnode.com for the blogs
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
 <a class="navbar-brand" href="index.html">Priyank Thakkar </a>
@@ -19,7 +19,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/Priyank_Thakkar_27_April.pdf" target="_blank">Resume</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/Priyank_Thakkar_Resume.pdf" target="_blank">Resume</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
